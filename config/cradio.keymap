@@ -30,13 +30,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  F       │  P       │  B       │   │  J       │  L       │  U       │  Y       │  ;       │
-           &mt LGUI Q  &mt LALT W &mt LCTRL F &mt LSHFT P  &kp B       &kp J      &mt LSHFT L &mt LCTRL U &mt LALT Y &mt LGUI SEMI
+           &kp Q       &kp W      &kp F      &kp P          &kp B       &kp J      &kp L     &kp U      &kp Y      &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  G       │   │  M       │  N       │  E       │  I       │   O      │
-           &kp A       &kp R       &kp S     &kp T       &kp G        &kp M      &kp N        &kp E     &kp I       &kp O
+           &kp A       &kp R       &kp S     &kp T       &kp G        &kp M      &kp N        &kp E     &kp I      &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │ , <      │ . >      │ / ?      │
-            &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH
+            &mt LGUI Z &mt LALT X &mt LCTRL C &mt LSHFT D   &kp V      &kp K    &mt LSHFT H  &mt LCRTL COMMA  &mt LALT DOT &mt LGUI FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt NAV BSPC &lt FN ENTER    &lt NUM TAB  &lt SYM SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
