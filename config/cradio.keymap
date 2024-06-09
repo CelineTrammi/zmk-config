@@ -11,6 +11,9 @@
 #define NUM 3
 #define FN 4
 
+&mt {
+tapping-term-ms = <400>;
+};
 / {
     behaviors {
         ht: hold_tap {
@@ -22,9 +25,6 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
         };
-    };
-    &mt {
-    tapping-term-ms = <400>;
     };
 
     keymap {
