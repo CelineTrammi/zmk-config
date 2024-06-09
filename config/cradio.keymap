@@ -50,7 +50,7 @@
             &trans     &kp LPAR   &kp RPAR    &kp SQT   &trans         &trans      &trans     &trans     &trans    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    \     │    [{    │    }]    │    =+    │    `~    │   │          │          │          │          │          │
-            &kp BSLH   &kp LBRC   &kp RBRC   &kp EQUAL   &kp GRAVE    &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI    &trans
+            &kp BSLH   &kp LBKT   &kp RBKT   &kp EQUAL   &kp GRAVE    &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │    -_    │          │   │          │          │          │          │          │
             &trans     &trans     &trans     &kp MINUS   &trans         &trans     &trans     &trans     &trans     &trans
