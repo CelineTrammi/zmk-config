@@ -36,7 +36,7 @@
            &kp A       &kp R       &kp S     &kp T       &kp G        &kp M      &kp N        &kp E     &kp I      &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │ , <      │ . >      │ / ?      │
-            &mt LGUI Z &mt LALT X &mt LCTRL C &mt LSHFT D &kp V       &kp K     &mt LSHFT H  &mt LCTRL COMMA &mt LALT DOT &mt LGUI FSLH
+            &ht LGUI Z &ht LALT X &ht LCTRL C &ht LSHFT D &kp V       &kp K     &ht LSHFT H  &ht LCTRL COMMA &ht LALT DOT &ht LGUI FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt NAV BSPC &lt FN ENTER    &lt NUM TAB  &lt SYM SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
