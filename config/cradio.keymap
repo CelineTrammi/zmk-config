@@ -17,7 +17,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
@@ -47,16 +47,16 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │     (    │    )     │    |     │     &    │   │          │          │          │          │          │
-            &trans     &kp LPAR   &kp RPAR    &kp PIPE   &kp AMPS         &trans      &trans     &trans     &trans    &trans
+            &trans     &kp LPAR   &kp RPAR    &kp PIPE   &kp AMPS       &trans     &trans     &trans     &trans    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │     {    │    }     │    =+    │    `~    │   │          │          │          │          │          │
-            &kp SEMI   &kp LBRC   &kp RBRC   &kp EQUAL   &kp GRAVE       &trans    &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI
+            &kp SEMI   &kp LBRC   &kp RBRC    &kp EQUAL  &kp GRAVE      &trans     &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │     [    │    ]     │    -_    │          │   │          │          │          │          │          │
-            &kp BSLH     &kp LBKT   &kp RBKT   &kp MINUS   &trans         &trans     &trans     &trans     &trans     &trans
+            &kp BSLH   &kp LBKT   &kp RBKT    &kp MINUS  &trans         &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                                 
-                                             &kp SEMI   &kp ESC       &trans     &trans
+                                              &kp ESC    &kp DEL       &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
