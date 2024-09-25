@@ -17,7 +17,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <220>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
@@ -29,8 +29,8 @@
         default_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  Q       │  W       │  F       │  P       │  B       │   │  J       │  L       │  U       │  Y       │  ;       │
-           &kp Q       &kp W      &kp F      &kp P          &kp B       &kp J      &kp L     &kp U      &kp Y      &kp SEMI
+        //│  Q       │  W       │  F       │  P       │  B       │   │  J       │  L       │  U       │  Y       │  ''      │
+           &ht ESC Q   &kp W      &kp F      &kp P          &kp B       &kp J      &kp L     &kp U      &kp Y      &kp SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  G       │   │  M       │  N       │  E       │  I       │   O      │
            &kp A       &kp R       &kp S     &kp T       &kp G        &kp M      &kp N        &kp E     &kp I      &kp O
@@ -46,17 +46,17 @@
         symbolic {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │     (    │    )     │     "    │    '     │   │          │          │          │          │          │
-            &trans     &kp LPAR   &kp RPAR    &kp DQT   &kp DQT         &trans      &trans     &trans     &trans    &trans
+        //│          │     (    │    )     │    |     │     &    │   │          │          │          │          │          │
+            &trans     &kp LPAR   &kp RPAR    &kp PIPE   &kp AMPS         &trans      &trans     &trans     &trans    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │     {    │    }     │    =+    │    `~    │   │          │          │          │          │          │
-            &kp DEL   &kp LBRC   &kp RBRC   &kp EQUAL   &kp GRAVE       &trans    &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI
+            &kp SEMI   &kp LBRC   &kp RBRC   &kp EQUAL   &kp GRAVE       &trans    &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │     [    │    ]     │    -_    │          │   │          │          │          │          │          │
             &trans     &kp LBKT   &kp RBKT   &kp MINUS   &trans         &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                                 \|
-                                             &kp ESC     &kp BSLH       &trans     &trans
+                                             &kp SEMI   &kp BSLH       &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
