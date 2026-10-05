@@ -30,7 +30,7 @@
 
             // 1, 2, 3 taps do nothing/use whatever you want
             // 4 taps enters gaming
-            bindings = <&kp L>, <&kp L>, <&kp L>, <&to GAMING>;
+            bindings = <&kp L>, <&kp L>, <&kp L>, <&to LOL>;
         };
     };
 
@@ -134,7 +134,7 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
             &kp LCTRL  &kp A      &kp S      &kp D      &kp F          &kp B     &trans    &trans     &trans   &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &kp SPACE  &kp T          &kp P    &kp ESC
+                                             &kp SPACE  &kp T          &to BASE   &kp ESC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
