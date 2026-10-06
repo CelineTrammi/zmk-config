@@ -40,7 +40,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  F       │  P       │  B       │   │  J       │  L       │  U       │  Y       │    ' "   │
-           &ht ESC Q   &kp W      &kp F      &kp P         &kp B       &kp J      &kp L     &kp U      &kp Y      &kp SQT
+           &ht ESC Q   &kp W      &kp F      &kp P         &kp B       &kp J      &td_lol     &kp U      &kp Y      &kp SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  G       │   │  M       │  N       │  E       │  I       │   O      │
            &ht LGUI A  &ht LALT R &ht LCTRL S &ht LSHFT T &kp G        &kp M     &ht LSHFT N &ht LCTRL E &ht LALT I &ht LGUI O
@@ -57,7 +57,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│     ^    │     (    │    )     │    *     │     &    │   │          │          │          │          │          │
-            &kp CARET   &kp LPAR   &kp RPAR   &kp STAR   &kp AMPS       &trans     &trans     &trans     &trans    &trans
+            &kp CARET   &kp LPAR   &kp RPAR   &kp STAR   &kp AMPS       &trans     &to LOL    &trans     &trans    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     ;    │     {    │    }     │    =+    │    !     │   │          │          │          │          │          │
             &kp SEMI   &kp LBRC   &kp RBRC    &kp EQUAL  &kp EXCL       &trans     &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI
