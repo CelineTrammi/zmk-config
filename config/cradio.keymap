@@ -42,7 +42,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  F       │  P       │  B       │   │  J       │  L       │  U       │  Y       │    ' "   │
-           &ht ESC Q   &kp W      &kp F      &kp P         &kp B       &kp J      &td_lol     &kp U      &kp Y      &kp SQT
+           &ht ESC Q   &kp W      &kp F      &kp P         &kp B       &kp J      &kp L      &kp U      &kp Y      &kp SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  G       │   │  M       │  N       │  E       │  I       │   O      │
            &ht LGUI A  &ht LALT R &ht LCTRL S &ht LSHFT T &kp G        &kp M     &ht LSHFT N &ht LCTRL E &ht LALT I &ht LGUI O
