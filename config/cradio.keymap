@@ -23,6 +23,7 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
         };
+/*
         td_lol: tap_dance_gaming {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -32,6 +33,7 @@
             // 4 taps enters gaming
             bindings = <&kp L>, <&kp L>, <&kp L>, <&to LOL>;
         };
+*/
     };
 
     keymap {
@@ -57,7 +59,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│     ^    │     (    │    )     │    *     │     &    │   │          │          │          │          │          │
-            &kp CARET   &kp LPAR   &kp RPAR   &kp STAR   &kp AMPS       &trans     &to LOL    &trans     &trans    &trans
+            &kp CARET   &kp LPAR   &kp RPAR   &kp STAR   &kp AMPS       &trans     &trans     &trans     &trans    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     ;    │     {    │    }     │    =+    │    !     │   │          │          │          │          │          │
             &kp SEMI   &kp LBRC   &kp RBRC    &kp EQUAL  &kp EXCL       &trans     &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI
@@ -109,7 +111,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans      &trans    &trans 
+            &trans     &trans     &trans     &trans     &trans         &trans     &to LOL     &trans      &trans    &trans 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &trans     &trans     &trans     &trans     &trans         &trans     &trans    &trans     &trans   &trans
@@ -117,7 +119,7 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
             &trans     &trans     &trans     &trans     &trans         &trans     &trans    &trans     &trans   &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &trans    &trans
+                                             &trans     &trans         &trans    &kp C_RESET
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
